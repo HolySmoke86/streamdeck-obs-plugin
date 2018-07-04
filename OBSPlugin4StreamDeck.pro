@@ -23,7 +23,7 @@ HEADERS +=\
     actionhelp.h \
 	JSONUtils.h \
 	SourceInfo.h \
-	submodules/json/src/json.hpp
+	submodules/json/include/nlohmann/json.hpp
 
 CONFIG += c++11
 
@@ -40,7 +40,7 @@ DEFINES += VERSION_STR=\\\"$$VERSION\\\"
 
 
 # json
-INCLUDEPATH += $$PWD/submodules/json/src/ 
+INCLUDEPATH += $$PWD/submodules/json/include/
 
 
 INCLUDEPATH += $$PWD/obs-dev/headers/libobs/ \
