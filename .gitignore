@@ -81,3 +81,9 @@ ui_infodialog.h
 /moc_predefs.h
 /moc_infodialog.cpp
 /moc_actionhelp.cpp
+
+# qmake
+*.o
+.qmake.stash
+libStreamDeckPlugin.so*
+Makefile
